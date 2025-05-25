@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "module": "node16",
+    "moduleResolution": "nodenext",
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["dist"]
+}
